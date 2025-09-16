@@ -40,27 +40,38 @@ public class ProductsRepository(StoreContext context) : IProductsRepository
         );
     }
 
-    public async Task<IReadOnlyList<Product>> GetProductEntitiesAsync()
+    public async Task<IReadOnlyList<ProductDto>> GetProductsAsync(int? brandId, int? typeId, string? sort)
     {
-        return await context.Products.ToListAsync();
-    }
+        var query = context.Products
+            .AsNoTracking()
+            .Include(p => p.ProductBrand)
+            .Include(p => p.ProductType)
+            .AsQueryable();
 
+        if (brandId.HasValue)
+            query = query.Where(p => p.ProductBrandId == brandId.Value);
 
-    public async Task<IReadOnlyList<ProductDto>> GetProductsAsync()
-    {
-        return await context.Products
-        .Include(p => p.ProductBrand)
-        .Include(p => p.ProductType)
-        .Select(p => new ProductDto(
-            p.Id,
-            p.Name,
-            p.Description,
-            p.Price,
-            p.PictureUrl,
-            p.ProductBrand.Name,
-            p.ProductType.Name
-        ))
-        .ToListAsync();
+        if (typeId.HasValue)
+            query = query.Where(p => p.ProductTypeId == typeId.Value);
+
+        query = sort switch
+        {
+            "priceAsc" => query.OrderBy(p => p.Price),
+            "priceDesc" => query.OrderByDescending(p => p.Price),
+            _ => query.OrderBy(p => p.Name)
+        };
+
+        return await query
+            .Select(p => new ProductDto(
+                p.Id,
+                p.Name,
+                p.Description,
+                p.Price,
+                p.PictureUrl,
+                p.ProductBrand.Name,
+                p.ProductType.Name
+            ))
+            .ToListAsync();
     }
 
     public bool ProductExists(int id)
@@ -76,5 +87,15 @@ public class ProductsRepository(StoreContext context) : IProductsRepository
     public void UpdateProduct(Product product)
     {
         context.Entry(product).State = EntityState.Modified;
+    }
+
+    public async Task<IReadOnlyList<ProductBrand>> GetProductBrandsAsync()
+    {
+        return await context.ProductBrands.ToListAsync();
+    }
+
+    public async Task<IReadOnlyList<ProductType>> GetProductTypesAsync()
+    {
+        return await context.ProductTypes.ToListAsync();
     }
 }

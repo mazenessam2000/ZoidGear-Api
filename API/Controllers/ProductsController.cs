@@ -4,6 +4,7 @@ using Infrastructure.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace API.Controllers
 {
@@ -12,9 +13,10 @@ namespace API.Controllers
     public class ProductsController(IProductsRepository repo) : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts(int? brandId, int? typeId, string? sort)
         {
-            return Ok(await repo.GetProductsAsync());
+            var products = await repo.GetProductsAsync(brandId, typeId, sort);
+            return Ok(products);
         }
 
         [HttpGet("{id:int}")]
@@ -56,6 +58,18 @@ namespace API.Controllers
             await repo.SaveChangesAsync();
 
             return NoContent();
+        }
+        [HttpGet("brands")]
+        public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
+        {
+            var brands = await repo.GetProductBrandsAsync();
+            return Ok(brands);
+        }
+        [HttpGet("types")]
+        public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
+        {
+            var types = await repo.GetProductTypesAsync();
+            return Ok(types);
         }
 
         private bool ProductExists(int id)
