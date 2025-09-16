@@ -1,0 +1,206 @@
+[
+  {
+    "Name": "Rubber Hex Dumbbell 10kg",
+    "Description": "Gym standard rubber hex dumbbell for versatile strength training.",
+    "Price": 25.00,
+    "PictureUrl": "https://images.pexels.com/photos/669579/pexels-photo-669579.jpeg",
+    "ProductBrand": { "Name": "Nike", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo-500x281.png" },
+    "ProductType": { "Name": "Dumbbells" }
+  },
+  {
+    "Name": "Chrome Dumbbell Set 20kg",
+    "Description": "Polished chrome dumbbells for heavy lifting.",
+    "Price": 55.00,
+    "PictureUrl": "https://images.pexels.com/photos/39585/bench-barbells-workout-strength-39585.jpeg",
+    "ProductBrand": { "Name": "Adidas", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Adidas-logo.png" },
+    "ProductType": { "Name": "Dumbbells" }
+  },
+  {
+    "Name": "Adjustable Dumbbell FineTune",
+    "Description": "Adjustable garden dumbbell with easy setting dial.",
+    "Price": 75.00,
+    "PictureUrl": "https://images.pexels.com/photos/18500/pexels-photo.jpg",
+    "ProductBrand": { "Name": "Puma", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Puma_logo.svg" },
+    "ProductType": { "Name": "Dumbbells" }
+  },
+  {
+    "Name": "Rubber Dumbbell 30kg",
+    "Description": "Large 30kg dumbbell for compound lifts.",
+    "Price": 90.00,
+    "PictureUrl": "https://images.pexels.com/photos/38383/weights-weight-lifting-dumbbells-silver-38383.jpeg",
+    "ProductBrand": { "Name": "Under Armour", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Under-Armour-Logo.png" },
+    "ProductType": { "Name": "Dumbbells" }
+  },
+  {
+    "Name": "Neoprene Dumbbell 5kg Pair",
+    "Description": "Coated neoprene pair ideal for light workouts.",
+    "Price": 20.00,
+    "PictureUrl": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg",
+    "ProductBrand": { "Name": "Reebok", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reebok_2019_logo.svg" },
+    "ProductType": { "Name": "Dumbbells" }
+  },
+
+  {
+    "Name": "Flat Bench Press Pro",
+    "Description": "Heavy duty flat bench for bench press routines.",
+    "Price": 180.00,
+    "PictureUrl": "https://images.pexels.com/photos/645671/pexels-photo-645671.jpeg",
+    "ProductBrand": { "Name": "Nike", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo-500x281.png" },
+    "ProductType": { "Name": "Bench Press" }
+  },
+  {
+    "Name": "Incline Bench Elite",
+    "Description": "Adjustable incline bench for upper chest workouts.",
+    "Price": 200.00,
+    "PictureUrl": "https://images.pexels.com/photos/48596/bench-bench-press-gym-strength-48596.jpeg",
+    "ProductBrand": { "Name": "Adidas", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Adidas-logo.png" },
+    "ProductType": { "Name": "Bench Press" }
+  },
+  {
+    "Name": "Decline Bench Silver",
+    "Description": "Decline bench variation for lower chest workouts.",
+    "Price": 190.00,
+    "PictureUrl": "https://images.pexels.com/photos/776657/pexels-photo-776657.jpeg",
+    "ProductBrand": { "Name": "Puma", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Puma_logo.svg" },
+    "ProductType": { "Name": "Bench Press" }
+  },
+  {
+    "Name": "Foldable Bench Home",
+    "Description": "Compact bench that can fold for home storage.",
+    "Price": 140.00,
+    "PictureUrl": "https://images.pexels.com/photos/703072/pexels-photo-703072.jpeg",
+    "ProductBrand": { "Name": "Under Armour", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Under-Armour-Logo.png" },
+    "ProductType": { "Name": "Bench Press" }
+  },
+  {
+    "Name": "Bench Press Rack Combo",
+    "Description": "Bench with adjustable rack and barbell holders.",
+    "Price": 320.00,
+    "PictureUrl": "https://images.pexels.com/photos/298489/pexels-photo-298489.jpeg",
+    "ProductBrand": { "Name": "Reebok", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reebok_2019_logo.svg" },
+    "ProductType": { "Name": "Bench Press" }
+  },
+
+  {
+    "Name": "Treadmill Runner X200",
+    "Description": "High-speed treadmill for cardio sessions.",
+    "Price": 850.00,
+    "PictureUrl": "https://images.pexels.com/photos/449210/pexels-photo-449210.jpeg",
+    "ProductBrand": { "Name": "Nike", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo-500x281.png" },
+    "ProductType": { "Name": "Treadmill" }
+  },
+  {
+    "Name": "Treadmill Fold Compact",
+    "Description": "Folding treadmill for limited space usage.",
+    "Price": 650.00,
+    "PictureUrl": "https://images.pexels.com/photos/383963/pexels-photo-383963.jpeg",
+    "ProductBrand": { "Name": "Adidas", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Adidas-logo.png" },
+    "ProductType": { "Name": "Treadmill" }
+  },
+  {
+    "Name": "Treadmill Pro Trainer",
+    "Description": "Commercial treadmill with incline and preset programs.",
+    "Price": 1200.00,
+    "PictureUrl": "https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg",
+    "ProductBrand": { "Name": "Puma", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Puma_logo.svg" },
+    "ProductType": { "Name": "Treadmill" }
+  },
+  {
+    "Name": "Treadmill Ultra Silent",
+    "Description": "Low noise treadmill for indoor home use.",
+    "Price": 950.00,
+    "PictureUrl": "https://images.pexels.com/photos/384383/pexels-photo-384383.jpeg",
+    "ProductBrand": { "Name": "Under Armour", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Under-Armour-Logo.png" },
+    "ProductType": { "Name": "Treadmill" }
+  },
+  {
+    "Name": "Treadmill AllWeather",
+    "Description": "Treadmill engineered to handle outdoor conditions.",
+    "Price": 1100.00,
+    "PictureUrl": "https://images.pexels.com/photos/414531/pexels-photo-414531.jpeg",
+    "ProductBrand": { "Name": "Reebok", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reebok_2019_logo.svg" },
+    "ProductType": { "Name": "Treadmill" }
+  },
+
+  {
+    "Name": "Kettlebell 16kg Pro",
+    "Description": "Cast iron kettlebell for strength and endurance training.",
+    "Price": 45.00,
+    "PictureUrl": "https://images.pexels.com/photos/977932/pexels-photo-977932.jpeg",
+    "ProductBrand": { "Name": "Nike", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo-500x281.png" },
+    "ProductType": { "Name": "Kettlebells" }
+  },
+  {
+    "Name": "Kettlebell Vinyl Coated 12kg",
+    "Description": "Color coded kettlebell for easy weight selection.",
+    "Price": 35.00,
+    "PictureUrl": "https://images.pexels.com/photos/393960/pexels-photo-393960.jpeg",
+    "ProductBrand": { "Name": "Adidas", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Adidas-logo.png" },
+    "ProductType": { "Name": "Kettlebells" }
+  },
+  {
+    "Name": "Competition Kettlebell 24kg",
+    "Description": "Professional competition grade kettlebell.",
+    "Price": 80.00,
+    "PictureUrl": "https://images.pexels.com/photos/561401/pexels-photo-561401.jpeg",
+    "ProductBrand": { "Name": "Puma", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Puma_logo.svg" },
+    "ProductType": { "Name": "Kettlebells" }
+  },
+  {
+    "Name": "Russian Kettlebell 32kg",
+    "Description": "Heavy Russian style kettlebell for advanced lifters.",
+    "Price": 110.00,
+    "PictureUrl": "https://images.pexels.com/photos/1088030/pexels-photo-1088030.jpeg",
+    "ProductBrand": { "Name": "Under Armour", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Under-Armour-Logo.png" },
+    "ProductType": { "Name": "Kettlebells" }
+  },
+  {
+    "Name": "Kettlebell 8kg Lightweight",
+    "Description": "Beginner friendly kettlebell.",
+    "Price": 25.00,
+    "PictureUrl": "https://images.pexels.com/photos/416520/pexels-photo-416520.jpeg",
+    "ProductBrand": { "Name": "Reebok", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reebok_2019_logo.svg" },
+    "ProductType": { "Name": "Kettlebells" }
+  },
+
+  {
+    "Name": "Exercise Bike Spin 300",
+    "Description": "Indoor exercise bike with rotating pedals and LCD screen.",
+    "Price": 550.00,
+    "PictureUrl": "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg",
+    "ProductBrand": { "Name": "Nike", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo-500x281.png" },
+    "ProductType": { "Name": "Exercise Bike" }
+  },
+  {
+    "Name": "Stationary Bike Basic",
+    "Description": "Stationary bike for home workout.",
+    "Price": 400.00,
+    "PictureUrl": "https://images.pexels.com/photos/276523/pexels-photo-276523.jpeg",
+    "ProductBrand": { "Name": "Adidas", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Adidas-logo.png" },
+    "ProductType": { "Name": "Exercise Bike" }
+  },
+  {
+    "Name": "Indoor Bike Pro",
+    "Description": "Interactive bike with resistance control.",
+    "Price": 750.00,
+    "PictureUrl": "https://images.pexels.com/photos/466243/pexels-photo-466243.jpeg",
+    "ProductBrand": { "Name": "Puma", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Puma_logo.svg" },
+    "ProductType": { "Name": "Exercise Bike" }
+  },
+  {
+    "Name": "Recumbent Bike Comfort",
+    "Description": "Recumbent bike with back support and comfort seat.",
+    "Price": 850.00,
+    "PictureUrl": "https://images.pexels.com/photos/383944/pexels-photo-383944.jpeg",
+    "ProductBrand": { "Name": "Under Armour", "LogoUrl": "https://1000logos.net/wp-content/uploads/2017/05/Under-Armour-Logo.png" },
+    "ProductType": { "Name": "Exercise Bike" }
+  },
+  {
+    "Name": "Bike Foldable Travel",
+    "Description": "Foldable bike for easy storage and portability.",
+    "Price": 300.00,
+    "PictureUrl": "https://images.pexels.com/photos/105566/pexels-photo-105566.jpeg",
+    "ProductBrand": { "Name": "Reebok", "LogoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reebok_2019_logo.svg" },
+    "ProductType": { "Name": "Exercise Bike" }
+  }
+]
